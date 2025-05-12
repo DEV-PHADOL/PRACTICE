@@ -28,6 +28,6 @@ public class RgistrationController {
 		}
 		model.addAttribute("student",new Student());
 		model.addAttribute("message","Registration Successful!");
-		return "register" ;
+		return "register";
 	}
 }
